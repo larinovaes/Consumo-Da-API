@@ -29,7 +29,7 @@ export default class LoginLead extends Component {
         fetch(url, requestInfo)
         .then( response => {
             console.log("Cadastrado com sucesso")
-            this.setState({message: "O cadastro foi feito com sucesso"})
+            this.setState({message: "O cadastro foi efetuado com sucesso"})
             return response
         }).catch( e => {
             console.log("Lead inválido")
