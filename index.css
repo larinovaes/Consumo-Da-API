@@ -1,13 +1,5 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+     justify-content: center;
+     background-size: cover;
+     background-image: url(https://www.dealernet.com.br/wp-content/uploads/2020/09/post_thumbnail-84001d8d4e0d320ee92e587064719913.jpeg);
 }

@@ -1,18 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import componenteHeader from './componenteHeader'
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import App from "./App";
+import './index.css'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <componenteHeader/>
-    
-  </React.StrictMode>,
-  document.getElementById('root')
+  <App/>,
+  document.getElementById("root")
 );
 
-
-reportWebVitals();
